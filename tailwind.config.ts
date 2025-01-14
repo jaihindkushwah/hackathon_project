@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
-
+import scrollbarHide from "tailwind-scrollbar-hide";
+import scrollbar from "tailwind-scrollbar";
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,5 +15,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [scrollbar, scrollbarHide],
 } satisfies Config;
