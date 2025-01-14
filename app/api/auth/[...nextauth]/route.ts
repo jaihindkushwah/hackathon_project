@@ -1,5 +1,5 @@
-import { GET, POST, authOptions } from "../../../../authOptions";
+import { GET, POST } from "../../../../authOptions";
 
 // console.log("welcome");
 
-export { GET, POST, authOptions };
+export { GET, POST };
